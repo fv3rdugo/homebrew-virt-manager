@@ -1,8 +1,8 @@
 class Usbredir < Formula
   desc "USB traffic redirection library"
   homepage "https://www.spice-space.org"
-  url "https://www.spice-space.org/download/usbredir/usbredir-0.8.0.tar.bz2"
-  sha256 "87bc9c5a81c982517a1bec70dc8d22e15ae197847643d58f20c0ced3c38c5e00"
+  url "https://www.spice-space.org/download/usbredir/usbredir-0.14.0.tar.xz"
+  sha256 "924dfb5c78328fae45a4c93a01bc83bb72c1310abeed119109255627a8baa332"
 
   depends_on "libtool" => :build
   depends_on "pkg-config" => :build
